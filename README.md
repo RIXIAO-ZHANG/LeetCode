@@ -2,4 +2,4 @@
 
 
 ## 1. Two Sum
-[twoSum](https://github.com/RIXIAO-ZHANG/LeetCode/blob/master/TwoSum.h)
+[Code for Two Sum](https://github.com/RIXIAO-ZHANG/LeetCode/blob/master/TwoSum.h)
