@@ -2,4 +2,4 @@
 
 
 ## 1. Two Sum
-[twoSum]()
+[twoSum](https://github.com/RIXIAO-ZHANG/LeetCode/blob/master/TwoSum.h)
