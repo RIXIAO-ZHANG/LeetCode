@@ -1,3 +1,5 @@
+
+// Method One 
 class Solution {
 public:
 	Solution() = default;
@@ -23,4 +25,30 @@ public:
 		vector<int> indices = { index1, index2 };
 		return indices;
 	}
+};
+
+
+// Method Two 
+#include <algorithm>
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target)
+    {
+        std::sort(nums.begin(),nums.end()); // sort the array 
+        int index1 = 0;
+        int index2 = nums.size()-1;
+        while(index1<index2)
+        {
+            if(nums.at(index1) + nums.at(index2) == target) 
+                break;
+            else if (nums.at(index1) + nums.at(index2) > target)
+                index2--;
+            else 
+                index1++;
+        }
+        
+        vector<int> indices = {index1, index2};
+        
+        return indices;
+    }
 };
